@@ -38,7 +38,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: const Text(
                       "Play",
                       style: TextStyle(
-                          fontSize: 20
+                          fontSize: 20,
+                          color: Colors.white
                       ),
                     ),
                     onPressed: () {
@@ -56,7 +57,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: const Text(
                     "Exit",
                     style: TextStyle(
-                        fontSize: 20
+                        fontSize: 20,
+                        color: Colors.white
                     ),
                   ),
                   onPressed: (){

@@ -21,7 +21,7 @@ class _CardFoundState extends State<CardFound> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text("The Card in Your Mind Is 😏",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.red),),
+            Text("The Card in Your Mind Is 😏",style: TextStyle(fontSize: MediaQuery.of(context).size.width*0.07,fontWeight: FontWeight.bold,color: Colors.red),),
             //Image.asset(mindCard,height: 400,width: 400,),
             Container(
               height: 400,
@@ -42,7 +42,8 @@ class _CardFoundState extends State<CardFound> {
                     child: const Text(
                       "Play Again",
                       style: TextStyle(
-                          fontSize: 20
+                          fontSize: 20,
+                          color: Colors.white
                       ),
                     ),
                     onPressed: () {
@@ -60,7 +61,8 @@ class _CardFoundState extends State<CardFound> {
                   child: const Text(
                     "Exit",
                     style: TextStyle(
-                        fontSize: 20
+                        fontSize: 20,
+                        color: Colors.white
                     ),
                   ),
                   onPressed: (){

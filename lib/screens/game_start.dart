@@ -142,6 +142,7 @@ class _GameStartState extends State<GameStart> {
                 ),
               ],
             ),
+            SizedBox(height: MediaQuery.of(context).size.width*0.02 ,)
           ],
         ),
       ),
