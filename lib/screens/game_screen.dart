@@ -71,6 +71,7 @@ class _GameScreenState extends State<GameScreen> {
               ),
               onPressed: (){
                 setState(() {
+                  cards.shuffle();
                   Navigator.of(context).push(MaterialPageRoute(
                       builder: (BuildContext context) =>
                       GameStart(cards: cards,)));
