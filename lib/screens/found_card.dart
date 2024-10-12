@@ -21,7 +21,7 @@ class _CardFoundState extends State<CardFound> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("The Card in Your Mind Is 😏",style: TextStyle(fontSize: MediaQuery.of(context).size.width*0.07,fontWeight: FontWeight.bold,color: Colors.red),),
+            Text("The Card in Your Mind Is 😏",style: TextStyle(fontSize: MediaQuery.of(context).size.width*0.054,fontWeight: FontWeight.bold,color: Colors.red),),
             //Image.asset(mindCard,height: 400,width: 400,),
             Container(
               height: 400,
