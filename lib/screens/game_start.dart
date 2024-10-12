@@ -25,7 +25,7 @@ class _GameStartState extends State<GameStart> {
         backgroundColor: Colors.black,
         body: Column(
           children: [
-            const Text("Click the Column with your card",style:TextStyle(color: Colors.yellow ,fontWeight: FontWeight.w500 , fontSize: 25) ,),
+            Text("Click the Column with your card",style:TextStyle(color: Colors.yellow ,fontWeight: FontWeight.w500 , fontSize: MediaQuery.of(context).size.width*0.05) ,),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [

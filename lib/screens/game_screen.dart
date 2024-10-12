@@ -66,7 +66,8 @@ class _GameScreenState extends State<GameScreen> {
               child: const Text(
                 "Start",
                 style: TextStyle(
-                    fontSize: 20
+                    fontSize: 20,
+                    color: Colors.white
                 ),
               ),
               onPressed: (){
@@ -77,7 +78,8 @@ class _GameScreenState extends State<GameScreen> {
                       GameStart(cards: cards,)));
                 });
               },
-            )
+            ),
+            SizedBox(height: MediaQuery.of(context).size.width*0.02 ,)
           ],
         ),
       ),
